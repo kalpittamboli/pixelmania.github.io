@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>steganography</title>
+    <script src="steganography.min.js"></script>
+    <link rel="stylesheet" href="steg.css">
+</head>
+<body>
+    
+     <!-- for chose file -->
+     <label class="label1">Add Image
+    <input type="file"  name="img" accept="image/*" onchange="readURL(this)" class="selectimage">
+    </label>
+    <br>
+     <!-- for display image -->
+    <div class="img">
+    <img src="" id="image1" width="30%" height="30%" alt="">
+     </div>
+    <!--for add text  -->
+      <div class="msg">Enter messages. which you want to hide inside the image.</div>
+    <div class="in">
+    <input  id="text" type="text">
+    <br>
+    <button onclick="hideText()" id="btn">Convert</button>
+    </div>
+      <!-- for display image -->
+      <div class="msg">    
+      <h4>save this image after convert.</h4>
+      </div>
+      <div class="img">
+      <img src="" id="image2" width="30%" height="30%">
+      </div>
+    <!-- another input  for decode-->
+    <label class="label2">Decode.
+    <input type="file" name="img1" accept="image/*" onchange="decode(this)" class="selectimage">
+    <h1 id="decode"></h1>
+    </label>
+    
+       <!-- calling script -->
+    <script src="index.js"></script>
+</body>
+</html>

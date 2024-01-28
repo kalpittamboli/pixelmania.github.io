@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: rgb(255, 255, 255);
+}
+.box
+{
+ 
+    width: 90%;
+    height:80vh;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.left
+{
+    width: 60%;
+    height: 90%;
+    margin-top: 3%;
+    float: left;
+    background-image: url('1.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px 0px 0px 50px;
+    box-shadow: 2px 2px 10px 2px rgb(0, 0, 0);
+}
+h1
+{
+    color: aliceblue;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+    margin-top: 20%;
+    text-shadow: 2px 2px 20px rgb(255, 0, 0);
+}
+.right
+{
+    width:40%;
+    height: 100%;
+    float: right;
+    background-color: rgb(82, 76, 88);
+    border-radius:0px 20px 20px 0px;
+}
+.form
+{
+    margin-top: 10%;
+    margin-left: 10%;
+    padding-top: 10%;
+    padding-left: 5%;
+    width: 80%;
+    height:60%;
+   
+}
+#in
+{
+  width: 60%;
+  padding-left: 10%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-left: 3%;
+  margin-bottom: 10px;
+  outline: none;
+  color: aliceblue;
+  border-style: hidden;
+  background-color: transparent;
+  border-bottom: 3px solid rgb(0, 242, 255);
+}
+#pass
+{
+  width: 60%;
+  margin-left: 3%;
+  padding-left: 10%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-bottom: 10px;
+  outline: none;
+  color: aliceblue;
+  border-style: hidden;
+  background-color: transparent;
+  border-bottom: 3px solid rgb(0, 242, 255);
+}
+#btn
+{
+ font-size: 22px;
+ font-weight: bold;
+ width: 80%;
+ padding: 3%;
+ margin-bottom: 10px;
+}
+#btn:hover
+{
+    border: 2px solid white;
+    box-shadow: 1px 1px 10px rgb(0, 229, 255);
+    
+}
+a{
+ text-decoration: none;
+ margin-left: 10px;
+ font-size: 19px;
+ text-shadow: 1px 1px 10px rgb(0, 0, 0);
+ color: rgb(0, 128, 255);
+}

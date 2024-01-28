@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *
+    {
+        margin: 0;
+        padding: 0;
+    }
+    body
+    {
+     background-image:linear-gradient(to right,rgb(0, 115, 255),rgb(255, 0, 43)); 
+     background-attachment: fixed;  
+    }
+    /* header */
+    .header
+    {
+        width: 100%;
+        height:70vh;
+        border-radius: 0px 0px 300px 300px;
+        background-color:cornflowerblue;
+    }
+    .img
+    {
+     width: 300px ;
+     height: 300px;
+     margin-left: 8%;
+     margin-right: 40%;
+     margin-top: 1%;
+     border: 2px solid white;
+     border-radius: 350px;
+     box-shadow: 25px 15px 10px rgb(0, 0, 0);
+    }
+    /* end of heading */
+    /* start main */
+
+    .table
+    {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    table
+    {
+        width:100%;
+        border: 2px solid white;
+        border-radius: 20px;
+        box-shadow: 2px 2px 20px rgb(0, 128, 255) ;
+    }
+ 
+    #a{
+        text-decoration: none;
+        color: aliceblue;
+        font-family:Verdana, Geneva, Tahoma, sans-serif
+        font-weight: bold;
+    }
+    #a:hover{
+        font-size: 23px;
+        transition-duration: .4s;
+    }
+    audio
+    {
+
+        margin: 4px 0px 2px 5px;
+    }
+   audio::-webkit-media-controls-panel
+   {
+       background-image: linear-gradient(to right,rgb(181, 71, 255),rgb(255, 0, 76));
+       outline: none;
+   }
+   audio::-webkit-media-controls-play-button
+   {
+       background-color: white;
+       border-radius: 30px;
+       box-shadow: 2px 2px 10px black;
+       filter: blur(2px);
+   }
+   audio:hover::-webkit-media-controls-play-button
+   {
+       background-color: white;
+       border-radius: 30px;
+       box-shadow: 2px 2px 10px black;
+       filter: blur(0px);
+       transition-duration: .3s;
+   }
+   audio::-webkit-media-controls-timeline
+   {
+      background-color: rgba(255, 255, 255, 0.5);
+      border-radius: 30px 0px 30px ;
+      box-shadow: 7px 5px 20px rgb(255, 255, 255) inset;
+   }
+   audio::-webkit-media-controls-time-remaining-display
+   {
+       color: rgb(8, 8, 8);
+       font-weight: bolder;
+       font-size: 20px;
+   }
+   audio::-webkit-media-controls-current-time-display
+   {
+       color: rgb(8, 8, 8);
+       font-weight: bolder;
+       font-size: 20px;
+   }
+    </style>
+</head>
+<body>
+<div class="header">
+    <img src="artist photo\3.jpg" class="img">
+</div>
+<br><br><br>
+<!-- main table -->
+<div class="table">
+    
+    <table>
+        <tr>
+            <td style="border-right: 2px solid white;padding-left: 2px;"><h1>1</h1></td>
+            <td style="border-right: 2px solid white;"><h2><marquee>Abhi_to_party_(singer_BADSHAH)</marquee></h2></td>
+            <td style="border-right: 2px solid white; ">
+                <audio src="badshah\abhi to party.mp3"controls></audio>
+            </td>
+            <td style="padding-left: 12px;"><a href="badshah\abhi to party.mp3" id="a" download="download">DOWNLOAD</a></td>
+        </tr>
+       
+    </table>
+    
+<br><br>
+</div>
+</body>
+</html>

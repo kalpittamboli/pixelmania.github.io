@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="edit.css">
+    <script src="edit.js"></script>
+    <script src="fotomain.js"></script>
+
+</head>
+<body>
+ 
+<br>
+    <div class="file-upload-section" onclick="selectimage()">
+        <input type="file" id="foto-file">
+        SELECT IMAGE+
+    </div>
+    
+    
+    <br>
+    
+    <!-- image container -->
+    <div class="img-container">
+         <img  id="foto-image" class="image">
+    </div>
+    <!-- button section -->
+    <div class="buttons-section">
+        <table class="buttontable">
+            <tr>
+                <td>
+                    <button class="operation-btn" onclick="flipvertically()">Flip</button>
+                </td>
+                <td>
+                    <button class="operation-btn" onclick="makeBright()" >Brightness</button>
+                </td>
+                <td>
+                    <button class="operation-btn" onclick="makeDark()" >Darker</button>
+                </td>
+            </tr>
+            <!-- second row -->
+            <tr>
+                <td>
+                    <button class="operation-btn" onclick="makeBlur()" >Blur</button>
+                </td>
+                <td>
+                    <button class="operation-btn" onclick="makeEmboss()" >Emboss</button>
+                </td>
+                <td>
+                    <button class="operation-btn" onclick="makeSharp()" >Sharp</button>
+                </td>
+            </tr>
+       
+            <tr>
+                <td>
+                    <button class="operation-btn" onclick="crop()">Crop</button>
+                </td>
+                <td>
+                    <button class="operation-btn" onclick="makegrayscale()" >Grayscale</button>
+                </td>
+                <td>
+                    <a href="edit.html">
+                    <button class="operation-btn"  >Reset</button>
+                    </a>
+                </td>
+            </tr>
+          <!-- download button -->
+            <tr>
+                <td colspan="3">
+                    <button class="operation-btn-download-btn" onclick="download()">Download</button>
+                </td>
+                
+                
+            </tr>
+        </table>
+    </div>
+    
+  
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pixelmania.com</title>
+    <link href="css/all.css" rel="stylesheet">
+</head>
+<link rel="shortcut icon" href="extra-p-m-v\favicon.jpg" type="image/x-icon">
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+ .background
+ { 
+   width: 100%;
+   padding-bottom: 50px;
+   background-image:url('extra-p-m-v/15.jpg');
+   background-size: cover;
+   border-radius: 0px 0px 30px 30px;
+}
+#myInput {
+  margin-top: 12px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 12px;
+  border-radius: 26px;
+  outline: none;
+  width: 80%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+
+  
+}
+input:hover{box-shadow: 2px 2px 10px 2px rgb(0, 208, 255);}
+
+#myUL{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px;
+  background-color: rgba(171, 167, 167,.4);
+  padding: 4px;
+  text-decoration: none;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  display: block;
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: rgb(255, 255, 255);
+  color: rgb(136, 42, 165);
+  text-shadow: 4px 4px 9px rgb(84, 19, 76);
+  
+}
+body
+{
+  background-image: linear-gradient(to left,rgb(6, 80, 252) ,rgb(160, 213, 240));
+  background-attachment: fixed;
+}
+</style>
+</head>
+<body >
+
+
+<div class="background">
+    <h1 id="top" style="color:rgb(255, 255, 255); text-align: center;">Gallary</h1>
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search" title="search name">
+
+<ul id="myUL">
+  <li><a href="html gallary\business.html" target="_blank">Business</a></li>
+  <li><a href="html gallary\car.html" target="_blank">Car</a></li>
+  <li><a href="html gallary\cartoon.html" target="_blank">Cartoon</a></li>
+  <li><a href="html gallary\desktop.html" target="_blank">Desktop</a></li>
+  <li><a href="html gallary\food.html" target="_blank">Food</a></li>
+  <li><a href="html gallary\game.html" target="_blank">Game</a></li>
+  <li><a href="html gallary\gif.html" target="_blank">Gifs</a></li>
+  <li><a href="html gallary\god.html" target="_blank">God</a></li>
+  <li><a href="html gallary\gym.html" target="_blank">Gym</a></li>
+  <li><a href="html gallary\hacker.html" target="_blank">Hacker</a></li>
+  <li><a href="html gallary\mobile.html" target="_blank">Mobile</a></li>
+  <li><a href="html gallary\nature.html" target="_blank">Nature</a></li>
+  <li><a href="login\upload\allimagedisp.php" target="_blank">New</a></li>
+  <li><a href="html gallary\space.html" target="_blank">Space</a></li>
+  <li><a href="html gallary\superhero.html" target="_blank">Superhero</a></li>
+</ul>
+</div>
+<!-- end of search div -->
+<br>
+
+<br><br><br>
+<h2 style="text-align: center;">Click Image to Download</h2>
+<div class="img" style="width: 100%; border-top: 5px solid blueviolet; padding-top: 15px; border-radius: 15px;">
+   <span><a href="html gallary\photos\food\f1.jpg" download="1"><img src="html gallary\photos\food\f1.jpg" alt="server error"style="width:32%; margin-left:12px;"></a>
+    <a href="html gallary\photos\food\f2.jpg" download="2"><img src="html gallary\photos\food\f2.jpg" alt="server error"style="width:32%;margin-left:12px;"></a>
+    <a href="html gallary\photos\game\g1.jpg" download="3"><img src="html gallary\photos\game\g1.jpg" alt="server error"style="width:32%;margin-left:12px;"></a>
+    <a href="html gallary\photos\game\g2.jpg" download="4"><img src="html gallary\photos\game\g2.jpg" alt="server error"style="width:32%;margin-left:12px;"></a>
+    <a href="html gallary\photos\game\g3.jpg" download="5"><img src="html gallary\photos\game\g3.jpg" alt="server error"style="width:32%;margin-left:12px;"></a><br>
+    <a href="html gallary\photos\food\f2.jpg" download="6"><img src="html gallary\photos\food\f2.jpg" alt="server error"style="width:32%;margin-left:12px;"></a>
+</div>
+
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
+</body>
+</html>

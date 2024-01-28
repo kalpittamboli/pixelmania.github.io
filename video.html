@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pixelmania.com</title>
+    <link href="css/all.css" rel="stylesheet">
+</head>
+<style>
+    
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body
+    {
+      background-image: linear-gradient(to left,rgb(100, 28, 255) ,rgb(34, 6, 247));
+      background-attachment: fixed;
+    }
+ .background
+ { 
+   width: 100%;
+   padding-bottom: 50px;
+   background-image:url('extra-p-m-v/15.jpg');
+   background-size: cover;
+   border-radius: 0px 0px 30px 30px;
+   border-bottom: 15px solid rgb(17, 0, 255);
+   margin-bottom: 100px;
+}
+#myInput {
+  margin-top: 12px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 12px;
+  border-radius: 26px;
+  outline: none;
+  width: 80%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+
+  
+}
+input:hover{box-shadow: 2px 2px 10px 2px rgb(0, 208, 255);}
+
+#myUL{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px;
+  background-color: rgba(171, 167, 167,.4);
+  padding: 4px;
+  text-decoration: none;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  display: block;
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: rgb(255, 255, 255);
+  color: rgb(136, 42, 165);
+  text-shadow: 4px 4px 9px rgb(84, 19, 76);
+  
+}
+/* video  */
+table
+        {
+            width: 100%;
+          
+        }
+      td
+       {
+            padding: 10px;
+            width: 30%;
+         
+       }
+    .vdo
+    {
+        width: 100%;
+        height: 30%;
+        
+    }
+ 
+    video
+    {
+        width: 100%;
+        height: 100%;
+        
+    }
+   a{color: #ddd; text-shadow: 1px 1px 20px blue; text-decoration: none;}
+   a:hover
+   {
+     font-size: 25px;
+     transition-duration: .4s;
+     text-shadow: 1px 1px 30px rgb(92, 187, 255);
+   }
+</style>
+<link rel="shortcut icon" href="extra-p-m-v/favicon.jpg" type="image/x-icon">
+</head>
+<body >
+
+
+<div class="background">
+    <h1 id="top" style="color:rgb(255, 255, 255); text-align: center;">Video</h1>
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search" title="search name">
+
+<ul id="myUL">
+    <li><a href="html video\animal.html" target="_blank">animal</a></li>
+  <li><a href="html video\business.html" target="_blank">Business</a></li>
+  <li><a href="html video\coding.html" target="_blank">Coding</a></li>
+  <li><a href="html video\drawing.html" target="_blank">Drowing</a></li>
+  <li><a href="html video\gamming.html" target="_blank">Gamming</a></li>
+  <li><a href="html video\gym.html" target="_blank">Gym</a></li>
+  <li><a href="html video\hacking.html" target="_blank">Hacking</a></li>
+  <li><a href="html video\learning.html" target="_blank">learning</a></li>
+  <li><a href="html video\space.html" target="_blank">Space</a></li>
+  <li><a href="html video\travel.html" target="_blank">travel</a></li>
+</ul>
+</div>
+<!-- video -->
+<table>
+        
+  <tr>
+      <td>
+          <div class="vdo">
+           <video controls="control">
+               <source src="html video\video\animals\a1.mp4">
+           </video>
+         <br>
+         <div style="text-align: center; background-color:rgba(0, 164, 158,.3); padding: 5px;font-weight: bolder;"><a href="video\animals\a1.mp4"download="1">Download</a></div>
+      </div>
+      </td>
+      <td>
+          <div class="vdo">
+              <video controls="control">
+                  <source src="html video\video\animals\a2.mp4">
+              </video>
+            <br>
+            <div style="text-align: center; background-color:rgba(0, 164, 158,.4); padding: 5px;font-weight: bolder;"><a href="video\animals\a2.mp4"download="1">Download</a></div>
+         </div>
+         
+      </td>
+   <td>
+    <div class="vdo">
+      <video controls="control">
+          <source src="html video\video\drawing\d2.mp4">
+      </video>
+    <br>
+    <div style="text-align: center; background-color:rgba(0, 164, 158,.4); padding: 5px;font-weight: bolder;"><a href="video\drawing\d2.mp4"download="1">Download</a></div>
+ </div>
+
+   </td>
+   
+  </tr>
+  <!-- 2nd row -->
+         
+  <tr>
+    <td>
+        <div class="vdo">
+         <video controls="control">
+             <source src="html video\video\bussiness\b1.mp4">
+         </video>
+       <br>
+       <div style="text-align: center; background-color:rgba(0, 164, 158,.3); padding: 5px;font-weight: bolder;"><a href="video\animals\a1.mp4"download="1">Download</a></div>
+    </div>
+    </td>
+    <td>
+        <div class="vdo">
+            <video controls="control">
+                <source src="html video\video\coding\c2.mp4">
+            </video>
+          <br>
+          <div style="text-align: center; background-color:rgba(0, 164, 158,.4); padding: 5px;font-weight: bolder;"><a href="video\animals\a2.mp4"download="1">Download</a></div>
+       </div>
+       
+    </td>
+ <td>
+  <div class="vdo">
+    <video controls="control">
+        <source src="html video\video\gamming\g2.mp4">
+    </video>
+  <br>
+  <div style="text-align: center; background-color:rgba(0, 164, 158,.4); padding: 5px;font-weight: bolder;"><a href="video\drawing\d2.mp4"download="1">Download</a></div>
+</div>
+
+ </td>
+ 
+</tr>
+<!-- 3rd row -->
+       
+<tr>
+  <td>
+      <div class="vdo">
+       <video controls="control">
+           <source src="html video\video\hacking\h1.mp4">
+       </video>
+     <br>
+     <div style="text-align: center; background-color:rgba(0, 164, 158,.3); padding: 5px;font-weight: bolder;"><a href="video\animals\a1.mp4"download="1">Download</a></div>
+  </div>
+  </td>
+  <td>
+      <div class="vdo">
+          <video controls="control">
+              <source src="html video\video\space\s1.mp4">
+          </video>
+        <br>
+        <div style="text-align: center; background-color:rgba(0, 164, 158,.4); padding: 5px;font-weight: bolder;"><a href="video\animals\a2.mp4"download="1">Download</a></div>
+     </div>
+     
+  </td>
+<td>
+<div class="vdo">
+  <video controls="control">
+      <source src="html video\video\bussiness\b2.mp4">
+  </video>
+<br>
+<div style="text-align: center; background-color:rgba(0, 164, 158,.4); padding: 5px;font-weight: bolder;"><a href="video\drawing\d2.mp4"download="1">Download</a></div>
+</div>
+
+</td>
+
+</tr>
+<!-- 4th row -->
+       
+<tr>
+  <td>
+      <div class="vdo">
+       <video controls="control">
+           <source src="html video\video\gym\gym1.mp4">
+       </video>
+     <br>
+     <div style="text-align: center; background-color:rgba(0, 164, 158,.3); padding: 5px;font-weight: bolder;"><a href="video\animals\a1.mp4"download="1">Download</a></div>
+  </div>
+  </td>
+  <td>
+      <div class="vdo">
+          <video controls="control">
+              <source src="html video\video\travel\t1.mp4">
+          </video>
+        <br>
+        <div style="text-align: center; background-color:rgba(0, 164, 158,.4); padding: 5px;font-weight: bolder;"><a href="video\animals\a2.mp4"download="1">Download</a></div>
+     </div>
+     
+  </td>
+<td>
+<div class="vdo">
+  <video controls="control">
+      <source src="html video\video\gamming\g2.mp4">
+  </video>
+<br>
+<div style="text-align: center; background-color:rgba(0, 164, 158,.4); padding: 5px;font-weight: bolder;"><a href="video\drawing\d2.mp4"download="1">Download</a></div>
+</div>
+
+</td>
+
+</tr>
+</table>
+<!-- end -->
+<br>
+<a href="#top" style=" text-decoration: none;"
+title="Goto Top"
+><h1 style="text-align: center; 
+font-weight: bolder; color: black;
+font-size: 30px;
+width: 100%;
+background-color: transparent;
+">^</h1></a>
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
+</body>
+</html>

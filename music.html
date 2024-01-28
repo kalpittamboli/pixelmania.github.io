@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      *{
+          margin: 0;
+          padding: 0;
+          color:whitesmoke;
+       }
+       /* head */
+       .head
+       {
+           width: 100%;
+           height:20%;
+           text-align: center;
+           font-size: 300%;
+           text-shadow: 5px 5px 10px black;
+           color: aliceblue;
+           padding-top: 10px;
+           padding-bottom: 5px;
+       }
+       /* body */
+       body
+       {
+        background-image: linear-gradient(to left,rgb(100, 28, 255) ,rgb(7, 172, 255));
+           background-attachment: fixed;
+       }
+       /* img */
+       .singer
+       {
+           width: 100%;
+           display: flex;
+       }
+       .img
+       {
+           width:150px;
+           height: 150px;
+           margin-left: 10px;
+           border: 5px solid white;
+           border-radius: 100px;
+       }
+       .img:hover
+       {
+           width:150px;
+           height: 150px;
+           margin-left: 10px;
+           border: 5px solid white;
+           box-shadow: 1px 1px 20px rgb(0, 221, 255);
+           border-radius: 100px;
+           animation: ratate;
+           animation-timing-function:linear;
+           animation-direction:alternate-reverse;
+           animation-duration: .5s;
+           animation-iteration-count: 1;
+        }
+        @keyframes ratate {
+            0%{border: 5px solid white;}
+            100%{filter: brightness(1.5);}
+            
+        }
+
+       hr
+       {
+           background-color: aqua;
+           margin:50px 0px 20px 0px;
+       }
+       /* other */
+       .box
+       {
+           width:30%;
+           height:30%;
+           background-color: rgba(255, 255, 255, 0.2);
+           box-shadow: 1px 1px 20px rgb(255, 255, 255) inset ;
+           box-shadow: 1px 1px 10px rgb(0, 191, 255);
+           border-radius: 30px;
+           border: 3px solid white;
+           margin-left: 2%;
+       
+         
+       }
+      .box  h3
+       {
+           text-align: center;
+           margin-top: 25%;
+           margin-bottom: 15%;
+           margin-left: 5%;
+           margin-right: 5%;
+           text-shadow: 1px 1px 10px black;
+           color: rgb(255, 255, 255);
+         
+       }
+       h3:hover
+       {
+           font-size: 28px;
+           transition-duration: .5s;
+           text-shadow: 1px 1px 15px rgb(0, 0, 0);
+       }
+       a{
+           text-decoration: none;
+       }
+       .header
+    {
+        width: 100%;
+        height:30vh;
+        padding-top: 10%;
+        border-radius: 0px 0px 300px 300px;
+        box-shadow: 2px 2px 20px rgb(0, 0, 0) ;
+    }
+    </style>
+       <link rel="shortcut icon" href="extra-p-m-v\favicon.jpg" type="image/x-icon">
+</head>
+<body>
+    <div class="header">
+        <h1 style="text-align: center;color: aliceblue; font-weight: bold; text-shadow: 1px 1px 10px rgb(1, 179, 255);">MUSIC</h1>
+     </div>
+  <!-- heading close -->
+
+
+  <!-- artist -->
+ 
+<br><br><br><br>
+<h2 style="text-shadow: 5px 5px 10px black;">CATEGORY</h2><br><br>
+
+<div class="singer">
+    <div class="box">
+        <a href="html music\birthday.html"><h3>BIRTHDAY</h3></a>
+    </div>
+    <div class="box">
+       <a href="html music\new.html"> <h3>NEW</h3></a>
+    </div>
+    <div class="box"">
+        <a href="html music\old.html"><h3>90's</h3></a>
+    </div>
+</div>
+<br><br>
+
+<div class="singer">
+    <div class="box">
+        <a href="html music\panjabi.html"><h3>PANJABI</h3></a>
+    </div>
+    <div class="box">
+        <a href="html music\party.html"><h3>PARTY</h3></a>
+    </div>
+    <div class="box">
+        <a href="html music\wedding.html"><h3>WEDDING</h3></a>
+    </div>
+</div>
+<br><br>
+
+
+<div class="singer">
+    <div class="box">
+        <a href="html music\romance.html"><h3>ROMANCE</h3></a>
+    </div>
+    <div class="box">
+         <a href="html music\workout.html"><h3>WORKOUT</h3></a>
+    </div>
+    <div class="box">
+        <a href="html music\trending.html"><h3>TRENDING</h3></a>
+    </div>
+</div>
+<br><br><br><br>
+
+<h2 style="text-shadow: 5px 5px 10px black;">Featured Artist</h2><br><br><br>
+<div class="singer">
+
+ <div>
+     <a href="html music\music\Featured Artists\arijit.html" style="text-decoration: none;"> 
+     <img src="html music\music\Featured Artists\artist photo\1.jpg" class="img">
+     </a> <br> <br>
+     <h3 style="text-align: center;">Arijit singh</h3>
+  </div>
+ 
+  <div>
+      <a href="html music\music\Featured Artists\guru.html" style="text-decoration: none;"> 
+      <img src="html music\music\Featured Artists\artist photo\2.png" class="img">
+      </a> <br> <br>
+      <h3 style="text-align: center;">Guru Randhawa</h3>
+   </div>
+
+   <div>
+      <a href="html music\music\Featured Artists\badshah.html" style="text-decoration: none;"> 
+      <img src="html music\music\Featured Artists\artist photo\3.jpg" class="img">
+      </a> <br> <br>
+      <h3 style="text-align: center;">Badshah</h3>
+   </div>
+
+   <div>
+      <a href="html music\music\Featured Artists\justin.html" style="text-decoration: none;"> 
+      <img src="html music\music\Featured Artists\artist photo\4.jpg" class="img">
+      </a> <br> <br>
+      <h3 style="text-align: center;">Justin Bieber</h3>
+   </div>
+
+   <div>
+      <a href="html music\music\Featured Artists\meet.html" style="text-decoration: none;"> 
+      <img src="html music\music\Featured Artists\artist photo\5.jpg" class="img">
+      </a> <br> <br>
+      <h3 style="text-align: center;">Meet Brothers</h3>
+   </div>
+
+   <div>
+      <a href="html music\music\Featured Artists\neha.html" style="text-decoration: none;"> 
+      <img src="html music\music\Featured Artists\artist photo\6.jpg" class="img">
+      </a> <br> <br>
+      <h3 style="text-align: center;">Neha Kakar</h3>
+   </div>
+
+   <div>
+      <a href="html music\music\Featured Artists\diljit.html" style="text-decoration: none;"> 
+      <img src="html music\music\Featured Artists\artist photo\7.jpg" class="img">
+      </a> <br> <br>
+      <h3 style="text-align: center;">Diljit Dosanjh</h3>
+   </div>
+</div>
+<br><br><br><br>
+
+<h2>SOUND EFFECTS & RINGTONE</h2>
+<br><br>
+<div class="singer">
+    <div class="box" style="border-radius: 0px">
+        <a href="html music\soundeffect.html"><h3>SOUND EFFECTS</h3></a>
+    </div>
+    <div class="box"  style="border-radius: 0px ">
+        <a href="html music\ringtone.html"><h3>RINGTONES</h3></a>
+    </div>
+  
+</div>
+<br><br>
+</body>
+</html>

@@ -1,0 +1,92 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-image: linear-gradient(to left,rgb(120, 58, 255) ,rgb(160, 213, 240));
+    background-attachment: fixed;
+}
+h1
+{
+    color:rgb(0, 26, 104);
+    font-weight: bolder;
+    text-align: center;
+}
+.box
+{
+    width:90%;
+    margin: 5% 0% 0% 5%;
+    border-radius: 30px;
+    box-shadow: 2px 2px 20px rgb(74, 103, 116);
+    padding: 2%;
+    background-color: rgb(255, 255, 255,.5);
+    box-sizing: border-box;
+}
+.table
+{
+    width:80%;
+    margin-left: 10%;
+    border: 5px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+}
+thead
+{
+    background-color: rgb(93, 0, 255);
+    color: aliceblue;
+    width: 100%;
+    padding: 15px;
+    border-bottom: 5px solid black;
+}
+
+.tr
+{
+    width: 100%;
+    padding: 15px;
+    border-bottom: 5px solid black; 
+}
+th
+{
+    text-align: center;
+    padding: 15px;
+    font-size: larger;
+    font-weight: bolder;
+    text-shadow: 2px 2px 20px black;
+    border-right: 5px solid black;
+}
+td
+{
+
+    text-align: left;
+    padding: 15px;
+    font-size: large;
+    font-weight: bolder;
+    border-right: 5px solid black;
+}
+textarea
+{
+    width: 100%;
+    outline: none;
+    border-style: none;
+    font-size: large;
+    font-weight: bolder;
+    background-color: transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor:text;
+    
+ }
+ .a{
+     margin-left: 5%;
+     margin-right: 15%;
+     border-radius: 20px;
+     text-decoration: none;
+     background-color: aliceblue;
+     padding: 10px 15px 10px 15px;
+ }
+ .a:hover
+ {
+     box-shadow: 1px 1px 20px black;
+     color: aliceblue;
+     background-color: rgb(29, 0, 107);
+ }

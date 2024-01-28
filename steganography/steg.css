@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right,rgb(100, 28, 255) ,rgb(160, 213, 240));
+ background-attachment: fixed;
+ 
+}
+
+/* for hide button */
+.selectimage
+{
+    display: none;
+}
+/* heading button */
+.label1
+{
+    border: 4px solid rgb(255, 255, 255);
+    padding:9px 12px;
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    width:50%;
+    text-align: center;
+    margin-top: 7%;
+    margin-left:20% ;    
+}
+.label1:hover
+{
+    box-shadow: 1px 1px 6px 2px rgb(2, 75, 138);
+}
+/*  image container */
+.img
+{
+    width:100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  
+}
+img
+{
+    margin-left: 30%;
+}
+  
+/* msg */
+.msg{
+    margin-top: 12px;
+    margin-bottom: 5px;
+    width:50%;
+    margin-left: 20%;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+  
+}
+.in
+{
+    width:50%;
+    margin-left:20% ;
+}
+#text
+{
+    width: 100%;
+    font-size: 20px;
+    outline: none;
+    color: aliceblue;
+    background-color: rgba(59, 54, 54,.5);
+    border: 2px solid rgb(55, 139, 255);
+}
+#text:hover
+{
+    box-shadow: 1px 1px 5px rgb(0, 161, 197);
+}
+
+#btn
+{   
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 25%;
+    padding: 10px;
+    width: 50%;
+    color: aliceblue;
+    cursor: pointer;
+    background-color: rgba(0, 85, 204,.6);
+    border-style: none;
+}
+#btn:hover{
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid rgb(4, 138, 255);
+    background-color:rgba(0, 85, 204,.9); ;
+    transition-duration: .5s;
+}
+/* decode button */
+.label2
+{
+    border: 4px solid rgb(255, 255, 255);
+    padding:9px 12px;
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    width:50%;
+    text-align: center;
+    margin-left:20% ; 
+    margin-bottom: 120px;   
+}
+.label2:hover
+{
+    box-shadow: 1px 1px 6px  rgb(2, 75, 138);
+}
